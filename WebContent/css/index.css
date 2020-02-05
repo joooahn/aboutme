@@ -14,6 +14,7 @@
 
   .menu {
     height:70px;
+    background-color:white;
   }
 
   .menu>ul {
@@ -38,43 +39,55 @@
     font-weight:bold;
   }
 
-  .container{
+  .button a {
+    color:white;
+    font-weight:bold;
+  }
+
+  .container {
     text-align:center;
   }
 
   .contents {
-    height:130px;
     font-weight:bold;
     line-height:1.5;
+    1background-color:#333;
   }
-
+  
   .button {
-    height:100px;
+    1background-color:#444;
+    overflow:auto;
+    margin-left:40%;
   }
 
-  .button>ul>li {
-    display:inline-block;
-    width:100px;
-    height:80px;
-    background-color:#d1dfe3;
+  #left, #right {
+    float : left;
     box-shadow:2px 2px 5px;
-    line-height:4.5;
-    text-align:center;
+    background-color:#d1dfe3;
+    height:90px;
+    line-height:5.5;
+    margin:10px 0px;
   }
 
-  .button>ul>li>a{
-    color:white;
-    font-weight:bold;
+  #left {
+    width:15%;
+    margin-right:10px;
+  }
+
+  #right {
+    width:15%;
   }
  
-  #map {
-    height:550px;
+  img {
+    margin:20px;
   }
 
-  #address {
+  footer {
     margin-top:10px;
     height:50px;
     text-align:center;
+    background-color:white;
     color:#1e5a6b;
     font-weight:bold;
+    line-height:1.5;
   }
