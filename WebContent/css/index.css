@@ -1,43 +1,42 @@
   @charset "utf-8";
 	
   html {
-    background-color:#e9f0f2;
-  }
+  background:#e9f0f2; 
+}
 
-   div {
-    background-color:white;
-  }
+div, header, footer, section {
+  background:white;
+}
 
-  a {
-    text-decoration:none;
-  }
+a {
+  text-decoration:none;
+}
 
-  .menu {
-    height:70px;
-    background-color:white;
-  }
+header{
+  height:70px;
+}
 
-  .menu>ul {
-    text-align:right;
-    margin-right:5px;
-  }
+ul{
+  text-align:right;
+  margin-right:5px;
+}
 
-  .menu>ul>li {
-    display:inline-block;
-    width:100px;
-    height:40px;
-    margin-left:20px;
-    margin-top:5px;
-    box-shadow:2px 2px 5px;
-    background-color:#cce2e8;
-    text-align:center;
-    line-height:2.5;
-  }
+ul>li{
+  display:inline-block;
+  width:100px;
+  height:40px;
+  margin-top:5px;
+  margin-left:20px;
+  box-shadow:2px 2px 5px;
+  text-align:center;
+  line-height:2.5;
+  background-color:#cce2e8;
+  font-weight:bold;
+}
 
-  .menu>ul>li>a {
-    color:#576dad;
-    font-weight:bold;
-  }
+li a{
+  color:#576dad;
+}
 
   .button a {
     color:white;
@@ -52,6 +51,15 @@
     font-weight:bold;
     line-height:1.5;
     1background-color:#333;
+  }
+
+  section {
+    padding-top:30px;
+    margin-top:10px;
+  }
+  
+  h1 {
+    margin-top:0px;
   }
   
   .button {

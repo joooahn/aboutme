@@ -4,7 +4,7 @@ html {
   background:#e9f0f2; 
 }
 
-div, header, section, footer {
+div, header, footer{
   background:white;
 }
 
@@ -38,25 +38,33 @@ li a{
   color:#576dad;
 }
 
-div {
+section {
+  margin-top:10px;
+}
+
+ .panel{
+  padding-top:50px;
+  padding-bottom:50px;
+  padding-left:80px;
   overflow:auto;
 }
 
-#container{
-  margin-top:10px;
-  height:500px;
-}
+ img {
+   height:500px;
+   border:solid gray 1px;
+ }
 
-section{
-  margin:10px 0;
+.photo, .text{
   float:left;
-  width:90%;
-  margin-left:5%;
 }
 
-h3{
-  font-size:1.3em;
-  
+.text{
+  width:50%;
+  margin-left:70px;
+}
+
+#sven{
+  margin-top:10px;
 }
 
 footer{
