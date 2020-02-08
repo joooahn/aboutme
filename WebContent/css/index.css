@@ -90,12 +90,12 @@ li a{
     margin:20px;
   }
 
-  footer {
-    margin-top:10px;
-    height:50px;
-    text-align:center;
-    background-color:white;
-    color:#1e5a6b;
-    font-weight:bold;
-    line-height:1.5;
-  }
+  footer{
+	  text-align:center;
+	  margin-top:10px;
+	  clear:left;
+	  height:60px;
+	  padding-top:12px;
+}
+  
+
